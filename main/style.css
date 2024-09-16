@@ -1,0 +1,101 @@
+/*gradient of the body*/
+body{
+    background: linear-gradient(45deg,#240B36,#A4031F,#DB9065,#F2A359,#F2DC5D);
+    height: 100vh;
+    margin: 0;
+    background-size: 300% 300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: color 15s infinite ease-in-out;
+}
+
+/*animation of the gradient*/
+@keyframes color{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/*body of the calculator*/
+.container{
+    background-color: black;
+    border-radius: 30px;
+    height: 450px;
+    width: 395px;
+}
+form{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+/*display values*/
+.display{
+    width: 320px;
+    height: 70px;
+    border-radius: 20px;
+    padding-right: 10px;
+    font-size: 40px;
+    text-align: right;
+    margin-bottom: 20px;
+    color: white;
+    margin-top: 35px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    cursor: default;
+}
+
+/*the button size*/
+.button{
+    padding: 10px;
+    height: 50px;
+    width: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+    margin-left: 6px;
+    border-radius: 30px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*the operator size*/
+.operator{
+    padding: 10px;
+    height: 50px;
+    width: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+    border-radius: 30px;
+    border: none;
+    background-color: #FFA500;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.operator_special{
+    padding: 10px;
+    height: 50px;
+    width: 155px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+    border-radius: 30px;
+    border: none;
+    background-color: #FFA500;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
