@@ -17,11 +17,11 @@ This project is to show my basic understanding of javascript.
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/maggowda/To-Do_List.git
+   git clone https://github.com/maggowda/Calculator.git
 
 2. **Navigate to the repository**
    ```sh
-   cd To-Do_List
+   cd Calculator
 
 ## Usage 
 
